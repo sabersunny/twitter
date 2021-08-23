@@ -36,10 +36,11 @@
             <div class="name">{{ post.name }}</div>
             <div class="datetime">{{ post.created_at }}</div>
             <p>{{ post.body }}</p>
-            <img src="{{ post.image.url}}" alt="">
+            <img src="{{ post.image.url}}" style="width:300px">
 
             <div>
-            <a href="/like/{{post.id}}/"><img src="{% static 'img/download.png' %}" style="width: 10%"></a>
+            <a href="/like/{{post.id}}/">
+            <img src="{% static 'img/download.png' %}" style="width: 30px"></a>
             {{post.like_count}}
             </div>
 
