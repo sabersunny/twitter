@@ -140,4 +140,6 @@ ul {
     .posts li .name_body .name {
         font-size: 20px;
     }
+    .post_form input {
+        width:50%;
 }
